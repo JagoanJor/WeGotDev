@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: corbel;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a60a9;
+    position: sticky;
+    list-style: none;
+}
+
+.rightside ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.leftside>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.leftside {
+    display: flex;    
+}
+
+.leftside img {
+    width: 90px;
+    height: 50px;
+}
+
+.leftside ul li:hover .dropdown {
+    display: block;
+    flex-direction: column;
+    background-color: #d3d3d3;
+}
+
+#header ul li:hover a{
+    border-radius: 9px;
+    display: block;
+    border-bottom: 3px solid #d3d3d3;
+    transition: 0.2s;
+}
+
+#header ul li:hover{
+    border-radius: 9px;
+    background-color: #0a60a9;
+}
+
+.leftside ul li:hover .dropdown {
+    border-radius: 9px;
+    display: block;
+    flex-direction: column;
+    background-color: #d3d3d3;
+}
+
+.dropdown {
+    border-radius: 9px;
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.dropdown li a{
+    background-color: #d3d3d3;
+}
+
+.dropdown li a:hover {
+    background-color: gray;
+}
+
+.logo {
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    height: 50px;
+}
+  
+a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+  
+#header ul li a {
+    display: flex;
+    padding: 10px;
+}
+
+#body {
+    margin-left: 100px;
+    margin-right: 100px;
+    min-height: 100vh;
+}
+
+#body>h2 {
+    border-radius: 9px;
+    background-color: #d3d3d3;
+    padding-left: 1%;
+    margin-top: 5%;
+}
+
+
+
+.kategori {
+    margin-top: 5%;
+    position: absolute;
+}
+
+.kategori input {
+    border-radius: 7px;
+    background-color: #d3d3d3;
+    font-size: 15px;
+}
+
+.kategori ul {
+    list-style: none;
+}
+
+.kategori ul li {
+    border-radius: 10px;
+    padding: 20px 10px;
+    margin-top: 20%;
+    background-color: #d3d3d3;
+    text-align: center;
+}
+
+.kategori ul li:hover {
+    background-color: #969696;
+}
+
+.kategori ul li:hover .degree{
+    display: block;
+    flex-direction: row;
+}
+
+.degree{
+    display: none;
+    position: relative;
+}
+
+.kategori ul li:hover .rating{
+    display: block;
+    flex-direction: row;
+}
+
+.rating{
+    display: none;
+    position: relative;
+}
+
+.kategori ul li:hover .type{
+    display: block;
+    flex-direction: row;
+}
+
+.type{
+    display: none;
+    position: relative;
+}
+
+.kategori ul li:hover .path{
+    display: block;
+    flex-direction: row;
+}
+
+.path{
+    display: none;
+    position: relative;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+table, tr, td {
+    border-collapse: collapse;
+    padding: 2%;
+}
+
+.fieldset {
+    text-align: center;
+    background-color: #d3d3d3;
+    margin-top: 7%;
+    margin-left: 3%;
+    border-radius: 9px;
+    width: 47%;
+}
+
+.fieldset form input{
+    background-color: #0a60a9;
+    color: #d3d3d3;
+}
+
+#joinnow{
+    margin-top: 5px;
+    padding: 2px;
+    border-radius: 7px;
+    
+}
+
+.show {
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    margin-left: 20%;
+}
+
+.show a {
+    text-decoration: underline;
+}
+
+img {
+    border-radius: 9px;
+    width: 200px;
+    height: 100px;
+}
+
+.social {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.social a{
+    margin: 4px;
+    margin-top: 200px;
+    color: #969696;
+    font-size: 30px;
+}

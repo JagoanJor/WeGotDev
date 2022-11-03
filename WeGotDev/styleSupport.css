@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: corbel;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a60a9;
+    position: sticky;
+    list-style: none;
+}
+
+.rightside ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.leftside>ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.leftside {
+    display: flex;    
+}
+
+.leftside img {
+    width: 90px;
+    height: 50px;
+}
+
+.leftside ul li:hover .dropdown {
+    display: block;
+    flex-direction: column;
+    background-color: #d3d3d3;
+}
+
+#header ul li:hover a{
+    border-radius: 9px;
+    display: block;
+    border-bottom: 3px solid #d3d3d3;
+    transition: 0.2s;
+}
+
+#header ul li:hover{
+    border-radius: 9px;
+    background-color: #0a60a9;
+}
+
+.leftside ul li:hover .dropdown {
+    border-radius: 9px;
+    display: block;
+    flex-direction: column;
+    background-color: #d3d3d3;
+}
+
+.dropdown {
+    border-radius: 9px;
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.dropdown li a{
+    background-color: #d3d3d3;
+}
+
+.dropdown li a:hover {
+    background-color: gray;
+}
+
+.logo {
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    height: 50px;
+}
+  
+a {
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+  
+#header ul li a {
+    display: flex;
+    padding: 10px;
+}
+
+.bagian1 {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.bagian2 {
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+table, tr, td{
+    border-collapse: collapse;
+    padding: 3%;
+    margin-top: 5%;
+}
+
+.icon a {
+    padding-top: 40px;
+    font-size: 50px;
+}
+
+.bagian3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bagian3 button{
+    border-radius: 9px;
+}
+
+.bagian31 , .bagian32 , .bagian33 {
+    border-radius: 12px;
+    background-color: #bfcfff;
+    width: 200px;
+    height: 400px;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.button {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.button button {
+    background-color: #0a60a9;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.button button a{
+    color: #d3d3d3;
+}
+
+.social {
+    position: relative;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.social a{
+    margin: 4px;
+    margin-top: 200px;
+    color: #969696;
+    font-size: 30px;
+}
